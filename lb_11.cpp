@@ -28,23 +28,23 @@ int main()
     cout << " I will find the words with only 1 number\n";
     cout << " You have 20 symbols for ENGLISH Word \n";
     cout << "\nEnter 1st Word\t";
-    char firstWord[20];
+    char firstWord[10];
     cin >> firstWord;
     NumIsTrue(firstWord);
     cout << "\nEnter 2nd Word\t";
-    char secondWord[20];
+    char secondWord[10];
     cin >> secondWord;
     NumIsTrue(secondWord);
     cout << "\nEnter 3rd Word\t";
-    char thirdWord[20];
+    char thirdWord[10];
     cin >> thirdWord;;
     NumIsTrue(thirdWord);
     cout << "\nEnter 4 Word\t";
-    char fourWord[20];
+    char fourWord[10];
     cin >> fourWord;
     NumIsTrue(fourWord);
     cout << "\nEnter 5 Word \t";
-    char fiveWord[20];
+    char fiveWord[10];
     cin >> fiveWord;
     NumIsTrue(fiveWord);
 }
